@@ -48,6 +48,9 @@ const App = () => {
         }
         else if (tiktacArray[2] === tiktacArray[4] && tiktacArray[2] === tiktacArray[6] && tiktacArray[2] !== "") {
             setWinMessage(tiktacArray[2] + " has won");
+        else{
+             setWinMessage("Draw");
+        }    
 =======
      const findWinner = () => {
         if (tiktacArray[0] == tiktacArray[1] && tiktacArray[0] == tiktacArray[2] && tiktacArray[0] != "") {
