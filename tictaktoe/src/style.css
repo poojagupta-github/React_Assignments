@@ -1,7 +1,42 @@
-body{
-    background-color: rgb(223, 202, 135);
+body {
+   
+    background: linear-gradient(to right, #240b36, #5d78c0);
+
 }
-.icon{
+
+.icon {
     color: red;
     font-size: 50px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-gap: 15px;
+}
+
+
+.box {
+    height: 100px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gamebox{
+    width: 500px;
+    margin-top: 90px;
+}
+
+.btn{
+    margin: 10px 10px 10px 0;
+    padding: 7px 50px;
+    font-size: 30px;font-weight: 600;
+    color: white;
+    background: rgb(171, 97, 206);
+}
+
+.btn:hover{
+    background: black;
 }
